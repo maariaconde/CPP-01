@@ -1,7 +1,9 @@
 NAME = Zombie
 
 C_FILES = main.cpp \
-		  
+		randomChump.cpp \
+		newZombie.cpp \
+		Zombie.cpp
 		  
 O_FILES = ${C_FILES:.cpp=.o}
 
