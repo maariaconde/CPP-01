@@ -11,16 +11,14 @@ class Zombie
 {
     private:
         std::string _name;
-        void announce( void );
-
-        //Esta función crea un zombi, le asigna un nombre y hace que se anuncie a sí mismo.
-        void randomChump( std::string name );
 
     public:
-        Zombie();
-        //Esta función crea un zombi, le asigna un nombre y lo devuelve para que puedas utilizarlo fuera del ámbito (scope) de la función.
-        Zombie* newZombie( std::string name );
-
+        Zombie(std::string name);
+        ~Zombie();
+        void announce(void);
 };
+
+Zombie* newZombie(std::string name);
+void randomChump(std::string name);
 
 #endif

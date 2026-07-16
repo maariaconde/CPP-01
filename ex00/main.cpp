@@ -1,14 +1,20 @@
 
 #include " Zombie.hpp"
 
-int main(int argc, char **argv)
+
+int main(void)
 {
+    Zombie* zombie;
 
-    if(argc > 1)
-    {
-        std::cout << "Invalid arguments" << std::endl;
-        return(0);
-    }
+    randomChump("Ana");
 
+    std::cout << "-----" << std::endl;
+
+    zombie = newZombie("Bob");
+    zombie->announce();
+
+    delete zombie;
+
+    return (0);
 }
 

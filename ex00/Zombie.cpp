@@ -1,7 +1,12 @@
 
 #include " Zombie.hpp"
 
-void Zombie::announce( void )
+#include "Zombie.hpp"
+
+Zombie* newZombie(std::string name)
 {
-    std::cout << "BraiiiiiiinnnzzzZ..." << std::endl;
+    Zombie* zombie;
+
+    zombie = new Zombie(name);
+    return zombie;
 }
