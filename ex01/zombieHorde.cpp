@@ -14,7 +14,7 @@ Zombie *zombieHorde( int N, std::string name )
 
     for(int i = 0; i < N; i++)
     {
-        ZombieHorde[i] = name;
+        ZombieHorde[i].setName(name);
     }
     return(ZombieHorde);
 }
