@@ -1,4 +1,4 @@
-NAME = Brain
+NAME = Replace
 
 C_FILES = main.cpp 
 		  

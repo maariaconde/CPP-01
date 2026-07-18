@@ -1,6 +1,7 @@
-NAME = Brain
+NAME = Harl
 
-C_FILES = main.cpp 
+C_FILES = main.cpp \
+		Harl.cpp
 		  
 O_FILES = ${C_FILES:.cpp=.o}
 

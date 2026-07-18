@@ -5,9 +5,9 @@ int main(void)
 {
     Zombie* zombie;
 
-    randomChump("Ana");
+    randomChump("Antonio");
 
-    std::cout << "-----" << std::endl;
+    std::cout << "-----------------------------" << std::endl;
 
     zombie = newZombie("Bob");
     zombie->announce();

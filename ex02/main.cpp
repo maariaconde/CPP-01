@@ -1,5 +1,4 @@
 
-//Diferencia entre una variable, puntero y referencia.
 #include <iostream>
 #include <string>
 
@@ -17,4 +16,3 @@ int main(void)
 	std::cout << "Value pointed to by stringPTR: " << *stringPTR << std::endl;
 	std::cout << "Value pointed to by stringREF: " << stringREF << std::endl;
 }
-

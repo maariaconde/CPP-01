@@ -3,7 +3,6 @@
 int main()
 {
 	Harl harl;
-
 	std::cout << "---- TEST 1: DEBUG ----" << std::endl;
 	harl.complain("DEBUG");
 
@@ -15,6 +14,5 @@ int main()
 
 	std::cout << "\n---- TEST 4: ERROR ----" << std::endl;
 	harl.complain("ERROR");
-
 	return (0);
 }
