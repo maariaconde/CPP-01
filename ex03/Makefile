@@ -1,4 +1,4 @@
-NAME = Brain
+NAME = Weapon
 
 C_FILES = main.cpp \
 		HumanA.cpp \
